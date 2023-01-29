@@ -3,5 +3,5 @@
 - Link para os cursos da plataforma do **Curso em Vídeo**: https://www.cursoemvideo.com/cursos/ 
 
 ## 📚Módulos
-- [Módulo 1](https://github.com/GabrielYuriRF0/Curso-de-HTML5-e-CSS3/tree/main/Modulo%201)
+- [Módulo 1](https://github.com/GabrielYuriRF0/Curso-de-HTML5-e-CSS3/tree/main/Modulo%201) ✅
 - Módulo 2
