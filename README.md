@@ -4,4 +4,5 @@
 
 ## 📚Módulos
 - [Módulo 1](https://github.com/GabrielYuriRF0/Curso-de-HTML5-e-CSS3/tree/main/Modulo%201) ✅
-- Módulo 2
+
+- [Módulo 2] (https://github.com/GabrielYuriRF0/Curso-de-HTML5-e-CSS3/tree/main/Modulo%202)
