@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+h1{
+    font-family: Arial, Helvetica, serif;
+    font-size: 2em;
+}
+
+
+h1#principal{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.basico{
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 600;
+}
+
+
+.medio{
+    background-color: rgba(141, 141, 3, 0.966);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+
+}
