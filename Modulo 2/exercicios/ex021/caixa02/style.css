@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+}
+nav{
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 250);
+}
+
+nav > a{
+   text-decoration: none;
+   color:white;
+   font-weight: bold;
+   margin-right: 30px;
+}
+
+nav > a:hover{
+text-decoration: underline;
+}
+
+article{
+    background-color: rgb(179, 176, 176);
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+}
+
+
+
+h1{
+    padding-top: 10px;
+    font-size: 2.2em;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 30px;
+    
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+aside#tipo{
+    background-color: white;
+    padding-bottom: 8px;
+   
+}
+
+
+
+footer{
+    background-color: black;
+    font-family: serif;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px;
+}
+
+a#autor{
+    background-color: black;
+    font-weight: bolder;
+}
+
+.autor{
+    font-family: serif;
+    background-color: rgb(124, 124, 124);
+}
+.cabecalho{
+    font-size: 2em;
+}
+.conteudo{
+    font-size: 1.2em;
+    text-align: justify;
+}
