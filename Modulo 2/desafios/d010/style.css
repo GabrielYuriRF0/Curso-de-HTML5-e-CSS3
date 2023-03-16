@@ -44,6 +44,10 @@ body > header > nav > ul{
     padding-bottom: 10px;  
 }
 
+
+
+
+
 .menus{
     color: white;
     padding-right: 15px;
@@ -62,6 +66,53 @@ body > main{
     margin: auto;
 }
 
+aside#first{
+    margin: 30px 30px 30px 30px;
+    background-color: #ccf7de;
+    border-radius: 0px 0px 15px 15px ;
+}
+
+h2#aside_title{
+    font-family: Arial, Helvetica, serif;
+    background-color: #37b96f;
+    color: white;
+    border-radius: 3px 3px 0px 0px; 
+    padding-top: 10px;
+}
+
+main > aside > ul > li{
+    text-decoration: underline;
+}
+
+
+ul#first_ul{
+    display: inline-block;
+    padding-left: 25px;
+    position: 10px 10px 10px 100px;
+    
+}
+
+ul#second_ul{
+    display: inline-block;
+    padding-left: 220px;
+
+}
+
+footer{
+    padding-top: 15px;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    background-color: #247e4b;
+    padding-top: 10px;
+}
+
+footer > p > a{
+    color:white;
+}
+
 p{
     font-size: 1.2em;
     padding-top: 5px;
@@ -70,6 +121,7 @@ p{
     text-indent: 18px;
     padding-left: 10px;
     padding-bottom: 15px;
+    padding-right: 5px;
    
 }
 
@@ -103,7 +155,7 @@ a:hover{
     text-decoration: underline;
 }
 
-a::after{
+footer > p > a::after{
     content: "🔗";
 }
 
@@ -111,4 +163,5 @@ span{
     color: #247e4b;
     font-weight: bolder;
 }
+
 
