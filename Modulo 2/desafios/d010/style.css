@@ -19,6 +19,11 @@ body > header{
    
 }
 
+main{
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+}
+
 header > h1{
     font-family: Arial, Helvetica,serif;
     font-size: 2.8em;
@@ -44,6 +49,28 @@ body > header > nav > ul{
     padding-bottom: 10px;  
 }
 
+.div_image{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+picture > img{
+    max-width: 100%;
+    height: auto;
+}
+
+.div_video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26,92,56,255);
+    padding: 10px 10px 10px 10px;
+}
+
 
 
 
@@ -67,12 +94,18 @@ body > main{
 }
 
 aside#first{
+    display: flex;
+    flex-wrap: wrap;
+    
     margin: 30px 30px 30px 30px;
     background-color: #ccf7de;
     border-radius: 0px 0px 15px 15px ;
+
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
 }
 
 h2#aside_title{
+    width: 100%;
     font-family: Arial, Helvetica, serif;
     background-color: #37b96f;
     color: white;
@@ -82,21 +115,23 @@ h2#aside_title{
 
 main > aside > ul > li{
     text-decoration: underline;
-}
-
-
-ul#first_ul{
-    display: inline-block;
-    padding-left: 25px;
-    position: 10px 10px 10px 100px;
     
 }
 
-ul#second_ul{
-    display: inline-block;
-    padding-left: 220px;
-
+ul{
+    padding-bottom: 15px;
 }
+
+ul#first_ul, ul#second_ul{
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+    
+}
+
 
 footer{
     padding-top: 15px;
